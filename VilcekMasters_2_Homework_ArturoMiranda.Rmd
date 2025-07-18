@@ -105,8 +105,6 @@ class(nyc[["DX_DBTS"]])
 
 ```{r}
 #R will coerce every column to the same type before filling the matrix. Because the first column is character (KEY), everything else will be turned into character strings.This is because all elements must share the same type.
-matrix <- as.matrix(nyc[, 1:4])
-typeof(matrix)
 ```
 
 
