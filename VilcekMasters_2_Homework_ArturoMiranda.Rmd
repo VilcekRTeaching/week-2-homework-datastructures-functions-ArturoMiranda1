@@ -77,7 +77,7 @@ library(dplyr)
 ```{r}
 #Class command: 
 class(nyc$MERCURYTOTALBLOOD)
-#Other option we learnt:
+#Other option we learned:
 typeof(nyc$MERCURYTOTALBLOOD)
 ```
 
