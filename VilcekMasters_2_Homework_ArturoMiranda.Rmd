@@ -86,6 +86,8 @@ typeof(nyc$MERCURYTOTALBLOOD)
 
 ```{r}
 class(nyc$DX_DBTS)
+#> class(nyc$DX_DBTS)
+#[1] "integer
 ```
 
 
@@ -93,6 +95,8 @@ class(nyc$DX_DBTS)
 
 ```{r}
 class(nyc[["DX_DBTS"]])
+#> class(nyc[["DX_DBTS"]])
+#[1] "integer"
 ```
 
 
